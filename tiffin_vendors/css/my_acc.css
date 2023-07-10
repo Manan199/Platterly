@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin';
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+
+
+.page-wrapper{
+  min-height: 1000px;
+}
+
+/*.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}*/
+/* Button style */
+.btn {
+    padding: 5px 18px;
+    background: #6180a3;
+    border-radius: .25rem;
+    opacity: 0.9
+  }
+  .btn:hover {
+    color: white !important;
+    background: #6180a3;
+    opacity: 1;
+  }
+
+  /*---------Welcome to Iplay --------------*/
+
+  
+  .box-3 ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .box-3 ul li h2{
+    margin-top: 20px;
+    margin-right: 200px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-size: 45px;
+  }
+  
+  .user-bg {
+      background-color: #ffffff;
+      margin-top: 0px;
+      min-height: 1000px;
+  }
+  
+  h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(0,0,205);
+  }
+  .box-2 {
+    background-color: rgb(150, 92, 92);
+    float:left;
+    width: 250px;
+    height: 470px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .box-2 img {
+    margin: 25px 15px;
+  }
+  .box-2 li{
+    list-style-type: none;
+  }
+
+ .box-2 li a{
+    text-decoration: none;
+    padding-top: 3px;
+    margin-left: 30px;
+    text-align: right;
+    letter-spacing: 1;
+    font-size: 20px;
+    font-weight: 450;
+    color: rgb(0, 0, 3);
+}
+.box-2 a:hover{
+  font-size: 22px;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+}
+
+/*------------------------ Footer ---------------------------*/
+.footer {
+    background: #33393d;
+    color: #d3d3d3;
+    height: 350px;
+    position: relative;
+ }
+ 
+ /**** Content style*****/
+ .footer .footer-content  {
+   height: 350px;
+   display: flex;
+ }
+ /***section style******/
+ .footer .footer-content .footer-section{
+   flex: 1;
+   padding: 12px;
+ }
+ 
+ .footer .footer-content h1, h2{
+   color: white;
+   text-align: left;
+ }
+ 
+ /**** About *****/
+ .footer .footer-content .about .contact p {
+   display: block;
+   color: white;
+   font-size: 18px;
+   margin-bottom: 5px;
+ }
+ 
+  .footer .footer-content .footer-section .socials a {
+   border: 1px solid #6180a3;
+   width: 45px;
+   height: 41px;
+   padding-top: 3px;
+   text-align: center;
+   display: inline-block;
+   font-size: 25px;
+   border-radius: 30px;
+ }
+      /*---icons hovering-----*/
+   .footer .footer-content .footer-section a:hover{
+   color: white;
+   transition: all .3s;
+ }
+ 
+ /**** Links Style******/
+ .footer .footer-content  .links ul a{
+   display: block;
+   margin-bottom: 5px;
+   font-size: 1.2em;
+   transition: all .3s;
+ }
+    /*linkd hovering n transition*/
+ .footer .footer-content .links ul a:hover{
+   color: white;
+   margin-left: 15px;
+   transition: all .3s;
+ }
+ 
+ /**** Subscribe style ****/
+  .sub-input{
+   background: white;
+   color: white;
+   margin-bottom: 0px;
+   padding: 10px;
+   height: 40px;
+   size: 50px;
+   border: none;
+ }
+ 
+   /* subscribe button*/
+  .btn-big{
+    background: #33393d;
+    color: white;
+    border: none;
+    padding: 2.5rem, 1.3rem;
+    line-height: 1.4rem;
+  }
+ 
+ /***** Footer bottom *****/
+ .footer .footer-bottom {
+   background: #3c444d;
+   color: #ffffff;
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+ }
+ .back-to-top {
+   position: fixed;
+   width: 40px;
+   height: 40px;
+   border-radius: 3px;
+   bottom: 7px;
+   right: 15px;
+   background: #428bca;
+   color: #fff;
+   transition: display o.5s ease-in-out;
+   z-index: 99999
+ }
+ .back-to-top i {
+     font-size: 24px;
+     position: absolute;
+     top: 8px;
+     left: 8px;
+ }
+ /*-------------End of footer-------------*/ 
