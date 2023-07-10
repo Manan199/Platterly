@@ -1,0 +1,118 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+.blog-search {
+    background: black;
+	color:white;
+    padding: 2.5%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.blog {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.game-bg {
+    height: 70%;
+    width: 22%;
+    float: left;
+}
+
+.blog-desc {
+    width: 70%;
+    float: left;
+    margin-left: 4%;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+.blogs-det-label {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+a {
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4757;
+}
+
+.btn {
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+	margin-top:10px;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #ff4757;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background: skyblue;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background: #6180a3;
+  border-radius: .25rem;
+  opacity: 0.9
+}
+
+/*------------Game Product Form-----------------*/
+.product-back {
+  background-color: rgb(0,0,0);
+  min-height: 800px;
+  width:795px;
+}
+
+fieldset {
+    border: 1px solid white;
+    width: 650px;
+    height: 720px;
+    color: white;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 70px;
+    padding: 3%;
+    border-radius: 5px;
+  }
+
+.product-form {
+  display:inline-block;
+  /*float: left;*/
+}
+
+.product-form h1{
+    font-size: 25px;
+    padding-top: 18px;
+	margin-left:90px;
+    color: white;
+}
+
+.input-response{
+  box-sizing: border-box;
+  background-color: white;
+  margin-top:3px;
+  width: 70%;
+  padding: 8px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.inputs-response{
+  margin-top:3px;
+  width: 35%;
+  padding: 8px;
+  height: 30px;
+}
+
+  .sub-btn{
+  background-color: grey;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  width: 80px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+
+.sub-btn:hover {
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<?php
+
+/*$con = mysqli_connect("localhost","root","","iplay");
+
+if (mysqli_connect_errno()) {
+	
+	echo "Failed to connect to MySQL :" .mysqli_connect_errno();
+}
+*/
+$host = "localhost:3308"; 
+$user = "root";
+$password = "";
+$database = "iplay";
+
+$con = mysqli_connect ($host, $user, $password) or die('Not connected : Ah sh*t ' . mysqli_error());
+?>

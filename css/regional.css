@@ -1,0 +1,83 @@
+
+
+h1
+{ margin-top:20px;
+	text-align: center;
+	
+}
+
+/*
+.north {
+    margin-top: 0px;
+    display: block;
+    
+	
+}*/
+body {
+    background: white;     /* red, blue, yellow, etc */
+    color: black;            /* red, blue, yellow, etc */
+    font-size: 20px;        /* 0px - 100px and beyond */
+    font-weight: lighter;   /* lighter, normal, bold  */
+    text-align: centre;      /* left, center or right  */ 
+            /* From 0px and upwards   */
+}
+ 
+.regional-container{ 
+margin-top: 5px;
+margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+   text-align: center;
+   
+	
+}
+ .regional-container th{
+	
+	padding:1px;
+	
+}
+.regional-container td{
+	
+	padding:10px;
+}
+.regional-container button{ 
+	   color: #0f1419;
+    border: 1px solid #cfd9de;
+    border-radius: 20px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.btn1{
+  color: #0f1419;
+border: 1px solid #cfd9de;
+border-radius: 20px;
+background: teal;
+padding-top: 5px;
+padding-bottom: 8px;
+padding-left: 20px;
+padding-right: 20px;
+font-weight: bold;
+margin-top: 10px;
+
+
+
+}
+/*------------------------ Footer ---------------------------*/
+.footer-bottom {
+   background: #3c444d;
+   color: #ffffff;
+   height: 50px;
+   width: 100%;
+   text-align: center;
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+ }
+  /*-------------End of footer-------------*/
